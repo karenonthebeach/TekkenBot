@@ -12,7 +12,6 @@ from GUI_Overlay import CurrentColorScheme, ColorSchemeEnum
 
 from collections import Counter
 
-
 class DataColumns(Enum):
     XcommX = 0
     XidX = 1
