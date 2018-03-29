@@ -137,11 +137,6 @@ class TextRedirector(object):
                 data = data.replace('p2:', '')
                 text_tag = 'p2'
 
-            #if int(fa) <= -14:
-                #mixer.init() #you must initialize the mixer
-                #alert=mixer.Sound('bell.wav')
-                #alert.play()
-
             if '|' in output_str:
                 out = ""
                 for i, col in enumerate(data.split('|')):
