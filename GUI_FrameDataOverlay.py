@@ -11,7 +11,6 @@ import GUI_Overlay
 from GUI_Overlay import CurrentColorScheme, ColorSchemeEnum
 
 from collections import Counter
-from pygame import mixer # Load the required library
 
 
 class DataColumns(Enum):
