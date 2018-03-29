@@ -151,11 +151,6 @@ class TextRedirector(object):
                             else:
                                 needed_spaces = col_max_length - col_value_len
                                 col_value = (" " * int(needed_spaces / 2 + 1)) + col_value + (" " * int(needed_spaces / 2))
-
-                            #if str(fa) == str(self.columns_to_print[3]):
-                                #mixer.init() #you must initialize the mixer
-                                #alert=mixer.Sound('bell.wav')
-                                #alert.play()
                         
                         out += '|' + col_value
 
