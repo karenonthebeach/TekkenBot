@@ -253,7 +253,7 @@ class GUI_FrameDataOverlay(GUI_Overlay.Overlay):
     def create_frame_advantage_label(self, col):
         frame_advantage_var = StringVar()
         frame_advantage_var.set('?')
-        frame_advantage_label = Label(self.toplevel, textvariable=frame_advantage_var, font=("Consolas", 44), width=3, anchor='c',
+        frame_advantage_label = Label(self.toplevel, textvariable=frame_advantage_var, font=("Consolas", 44), width=4, anchor='c',
                                         borderwidth=1, relief='ridge')
         frame_advantage_label.grid(row=0, column=col)
         return frame_advantage_var, frame_advantage_label
