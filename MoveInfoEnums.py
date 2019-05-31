@@ -229,6 +229,19 @@ class CharacterCodes(Enum):
     EDDY = 35
     ELIZA = 36
     MIGUEL = 37
+    TEKKEN_FORCE = 38 # Not selectable
+    KID_KAZUYA = 39 # Not selectable
+    JACK_4 = 40 # Not selectable
+    YOUNG_HEIHACHI = 41 # Not selectable
+    TRAINING_DUMMY = 42 # Not selectable
+    GEESE = 43 # DLC
+    NOCTIS = 44 # DLC
+    ANNA = 45 # DLC
+    LEI = 46 # DLC
+    MARDUK = 47 # DLC
+    ARMOR_KING = 48 # DLC
+    JULIA = 49 # DLC
+    NEGAN = 50 # DLC
 
     NOT_YET_LOADED = 71 #value when a match starts for (??) frames until char_id loads
 
