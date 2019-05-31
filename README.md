@@ -7,9 +7,9 @@ Created by roguelike2d. Maintained by the community.
 **Q:** What is this thing?\
 **A:** It's a program for Tekken 7 that shows frame data information of your moves in real-time on PC.
 
-**Q:** How do I use this thing?\
+**Q:** How do I use it?\
 **A:** Go to the releases page, download the latest `TekkenBotPrime_vXXX.zip`, extract the files somewhere, open `TekkenBotPrime.exe`, and finally hop into practice mode.\
-If you want to run from source instead, install Python 3 and run `GUI_TekkenBotPrime.py`
+If you'd rather run from source instead, install Python 3 and run `GUI_TekkenBotPrime.py`
 
 **Q:** The bot stopped working after a game patch!\
 **A:** Wait for a good soul to update the `memory_address.ini` file, or fix it yourself by following the guide on the Wiki.
