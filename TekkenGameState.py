@@ -341,7 +341,6 @@ class BotSnapshot:
         cancel_window_bitmask = d['PlayerDataAddress.cancel_window']
         recovery_window_bitmask = d['PlayerDataAddress.recovery']
 
-        # TODO FLAG CLEANUP LATER
         self.is_cancelable = (CancelStatesBitmask.CANCELABLE.value & cancel_window_bitmask) == CancelStatesBitmask.CANCELABLE.value
         self.is_bufferable = (CancelStatesBitmask.BUFFERABLE.value & cancel_window_bitmask) == CancelStatesBitmask.BUFFERABLE.value
         self.is_parry_1 = (CancelStatesBitmask.PARRYABLE_1.value & cancel_window_bitmask) == CancelStatesBitmask.PARRYABLE_1.value
