@@ -339,11 +339,22 @@ class BotSnapshot:
         self.power_crush_flag = d['PlayerDataAddress.power_crush'] > 0
 
         cancel_window_bitmask = d['PlayerDataAddress.cancel_window']
+        recovery_window_bitmask = d['PlayerDataAddress.recovery']
 
+        # TODO FLAG CLEANUP LATER
         self.is_cancelable = (CancelStatesBitmask.CANCELABLE.value & cancel_window_bitmask) == CancelStatesBitmask.CANCELABLE.value
         self.is_bufferable = (CancelStatesBitmask.BUFFERABLE.value & cancel_window_bitmask) == CancelStatesBitmask.BUFFERABLE.value
         self.is_parry_1 = (CancelStatesBitmask.PARRYABLE_1.value & cancel_window_bitmask) == CancelStatesBitmask.PARRYABLE_1.value
         self.is_parry_2 = (CancelStatesBitmask.PARRYABLE_2.value & cancel_window_bitmask) == CancelStatesBitmask.PARRYABLE_2.value
+        
+        self.is_recovering = (ComplexMoveStates.RECOVERING.value & recovery_window_bitmask) == ComplexMoveStates.RECOVERING.value
+        
+        self.is_starting = False
+        # Check is player is in startup
+        if self.startup > 0:
+            self.is_starting = (self.move_timer <= self.startup)
+        else:
+            self.is_starting = False
 
         self.throw_tech = ThrowTechs(d['PlayerDataAddress.throw_tech'])
 

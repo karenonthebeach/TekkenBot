@@ -66,36 +66,49 @@ class GUI_CommandInputOverlay(GUI_Overlay.Overlay):
         self.stored_inputs = []
         self.stored_cancels = []
 
-
+    # Update state to reflect game state one frame ago
     def update_state(self):
         GUI_Overlay.Overlay.update_state(self)
         if self.launcher.gameState.stateLog[-1].is_player_player_one:
             input = self.launcher.gameState.stateLog[-1].bot.GetInputState()
             cancelable = self.launcher.gameState.stateLog[-1].bot.is_cancelable
-            bufferable = self.launcher.gameState.stateLog[-1].bot.is_bufferable
+            bufferable1 = self.launcher.gameState.stateLog[-1].bot.is_bufferable
             parry1 = self.launcher.gameState.stateLog[-1].bot.is_parry_1
             parry2 = self.launcher.gameState.stateLog[-1].bot.is_parry_2
+            starting = self.launcher.gameState.stateLog[-1].bot.is_starting
+            recovering = self.launcher.gameState.stateLog[-1].bot.is_recovering
         else:
             input = self.launcher.gameState.stateLog[-1].opp.GetInputState()
             cancelable = self.launcher.gameState.stateLog[-1].opp.is_cancelable
-            bufferable = self.launcher.gameState.stateLog[-1].opp.is_bufferable
+            bufferable1 = self.launcher.gameState.stateLog[-1].opp.is_bufferable
             parry1 = self.launcher.gameState.stateLog[-1].opp.is_parry_1
             parry2 = self.launcher.gameState.stateLog[-1].opp.is_parry_2
+            starting = self.launcher.gameState.stateLog[-1].opp.is_starting
+            recovering = self.launcher.gameState.stateLog[-1].opp.is_recovering
         frame_count = self.launcher.gameState.stateLog[-1].frame_count
         #print(input)
-        self.update_input(input, self.color_from_cancel_booleans(cancelable, bufferable, parry1, parry2))
+        self.update_input(input, self.color_from_cancel_booleans(
+            cancelable, bufferable1, parry1, parry2, starting, recovering))
 
-    def color_from_cancel_booleans(self, cancelable, bufferable, parry1, parry2):
+    def color_from_cancel_booleans(self, cancelable, bufferable1, parry1, parry2, starting, recovering):
+        
+        # default
+        fill_color = 'snow'
+        if starting:
+            fill_color = 'green4'
+        elif recovering:
+            fill_color = 'red4'
+        
         if parry1:
             fill_color = 'orange'
         elif parry2:
             fill_color = 'yellow'
-        elif bufferable:
+        elif bufferable1:
             fill_color = 'MediumOrchid1'
         elif cancelable:
             fill_color = 'SteelBlue1'
-        else:
-            fill_color = 'firebrick1'
+
+            
         return fill_color
 
     def update_input(self, input, cancel_color):
