@@ -242,6 +242,7 @@ class CharacterCodes(Enum):
     ARMOR_KING = 48 # DLC
     JULIA = 49 # DLC
     NEGAN = 50 # DLC
+    ZAFINA = 51 # DLC
 
     NOT_YET_LOADED = 71 #value when a match starts for (??) frames until char_id loads
 
