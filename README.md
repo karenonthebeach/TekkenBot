@@ -1,3 +1,7 @@
+Check out these experimental forks for new TekkenBotPrime features:\
+https://github.com/Alchemy-Meister/TekkenBot/ \
+https://github.com/compsyguy/TekkenBot/
+
 # TekkenBot
 AI and tools for playing and understanding Tekken 7.
 
