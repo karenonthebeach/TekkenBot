@@ -20,9 +20,9 @@ If you'd rather run from source instead, install Python 3 and run `GUI_TekkenBot
 
 **Q:** The frame advantage of this move seems wrong!\
 **A:** Double check using the alternative "manual" method to find frame advantage with the help of `tiny_live_frame_data_numbers`:
-1. mirror match (because not all characters have the same jumps)
-2. do your attack, neutral jump, and don't do anything else
-3. set the dummy to neutral jump as second action\
+1. start a mirror match (because not all characters have the same jumps)
+2. set the dummy to neutral jump as second action
+3. do your attack, neutral jump, and don't do anything else\
 ...the little numbers near the big frame advantage ones should now hopefully display the correct advantage.
 
 **Q:** I'm getting the `PID not found` error even though the game is running!\
