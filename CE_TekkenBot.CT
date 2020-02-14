@@ -22,11 +22,11 @@
     <CheatEntry>
       <ID>1008</ID>
       <Description>"rollback_frame_offset"</Description>
-      <LastState Value="335390720" RealAddress="6C31DF00"/>
+      <LastState Value="853056512" RealAddress="7E9EE090"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>1DEF0</Offset>
+        <Offset>1E080</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -34,11 +34,11 @@
     <CheatEntry>
       <ID>1009</ID>
       <Description>"frame_count"</Description>
-      <LastState Value="6295" RealAddress="6C300A40"/>
+      <LastState Value="359" RealAddress="7E9D0A50"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>A30</Offset>
+        <Offset>A40</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -46,7 +46,7 @@
     <CheatEntry>
       <ID>1014</ID>
       <Description>"p1_move_timer"</Description>
-      <LastState Value="48" RealAddress="6C300200"/>
+      <LastState Value="29" RealAddress="7E9D0200"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -58,7 +58,7 @@
     <CheatEntry>
       <ID>1018</ID>
       <Description>"p1_move_id"</Description>
-      <LastState Value="32769" RealAddress="6C300354"/>
+      <LastState Value="1413" RealAddress="7E9D0354"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -70,7 +70,7 @@
     <CheatEntry>
       <ID>1020</ID>
       <Description>"p1_recovery"</Description>
-      <LastState Value="100" RealAddress="6C3003A0"/>
+      <LastState Value="44" RealAddress="7E9D03A0"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -82,7 +82,7 @@
     <CheatEntry>
       <ID>1022</ID>
       <Description>"p1_hit_outcome"</Description>
-      <LastState Value="0" RealAddress="6C3003DC"/>
+      <LastState Value="0" RealAddress="7E9D03DC"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -94,7 +94,7 @@
     <CheatEntry>
       <ID>1024</ID>
       <Description>"p1_attack_type"</Description>
-      <LastState Value="0" RealAddress="6C30041C"/>
+      <LastState Value="2" RealAddress="7E9D041C"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -106,7 +106,7 @@
     <CheatEntry>
       <ID>1026</ID>
       <Description>"p1_simple_move_state"</Description>
-      <LastState Value="3" RealAddress="6C300420"/>
+      <LastState Value="25" RealAddress="7E9D0420"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -118,7 +118,7 @@
     <CheatEntry>
       <ID>1028</ID>
       <Description>"p1_stun_type"</Description>
-      <LastState Value="0" RealAddress="6C300424"/>
+      <LastState Value="0" RealAddress="7E9D0424"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -130,11 +130,11 @@
     <CheatEntry>
       <ID>1030</ID>
       <Description>"p1_throw_tech"</Description>
-      <LastState Value="0" RealAddress="6C300438"/>
+      <LastState Value="0" RealAddress="7E9D0440"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>428</Offset>
+        <Offset>430</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -142,11 +142,11 @@
     <CheatEntry>
       <ID>1034</ID>
       <Description>"p1_complex_move_state"</Description>
-      <LastState Value="0" RealAddress="6C30044C"/>
+      <LastState Value="0" RealAddress="7E9D0454"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>43C</Offset>
+        <Offset>444</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -154,23 +154,23 @@
     <CheatEntry>
       <ID>1123</ID>
       <Description>"p1_power_crush"</Description>
-      <LastState Value="0" RealAddress="6C300692"/>
+      <LastState Value="0" RealAddress="7E9D06A0"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>682</Offset>
+        <Offset>690</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
     </CheatEntry>
     <CheatEntry>
-      <ID>1038</ID>
+      <ID>4541</ID>
       <Description>"p1_jump_flags"</Description>
-      <LastState Value="75497472" RealAddress="6C300724"/>
-      <VariableType>4 Bytes</VariableType>
+      <LastState Value="260" RealAddress="7E9D0736"/>
+      <VariableType>2 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>714</Offset>
+        <Offset>726</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -178,11 +178,11 @@
     <CheatEntry>
       <ID>1040</ID>
       <Description>"p1_cancel_window"</Description>
-      <LastState Value="65536" RealAddress="6C300758"/>
+      <LastState Value="65536" RealAddress="7E9D0768"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>748</Offset>
+        <Offset>758</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -190,11 +190,11 @@
     <CheatEntry>
       <ID>1042</ID>
       <Description>"p1_damage_taken"</Description>
-      <LastState Value="0" RealAddress="6C30090C"/>
+      <LastState Value="0" RealAddress="7E9D091C"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>8FC</Offset>
+        <Offset>90C</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -202,11 +202,11 @@
     <CheatEntry>
       <ID>1070</ID>
       <Description>"p1_input_attack"</Description>
-      <LastState Value="0" RealAddress="6C30196C"/>
+      <LastState Value="512" RealAddress="7E9D199C"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>195C</Offset>
+        <Offset>198c</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -214,11 +214,11 @@
     <CheatEntry>
       <ID>1072</ID>
       <Description>"p1_input_direction"</Description>
-      <LastState Value="32" RealAddress="6C300D4C"/>
+      <LastState Value="32" RealAddress="7E9D19A0"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>D3C</Offset>
+        <Offset>1990</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -226,11 +226,11 @@
     <CheatEntry>
       <ID>1074</ID>
       <Description>"p1_attack_startup"</Description>
-      <LastState Value="0" RealAddress="6C307590"/>
+      <LastState Value="0" RealAddress="7E9D75F0"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>7580</Offset>
+        <Offset>75e0</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -238,11 +238,11 @@
     <CheatEntry>
       <ID>1076</ID>
       <Description>"p1_attack_startup_end"</Description>
-      <LastState Value="0" RealAddress="6C307594"/>
+      <LastState Value="0" RealAddress="7E9D75F4"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>7584</Offset>
+        <Offset>75e4</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -250,7 +250,7 @@
     <CheatEntry>
       <ID>1147</ID>
       <Description>"p2_move_timer"</Description>
-      <LastState Value="37" RealAddress="6C307840"/>
+      <LastState Value="359" RealAddress="7E9D78A0"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -262,7 +262,7 @@
     <CheatEntry>
       <ID>1148</ID>
       <Description>"p2_move_id"</Description>
-      <LastState Value="148" RealAddress="6C307994"/>
+      <LastState Value="32769" RealAddress="7E9D79F4"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -274,7 +274,7 @@
     <CheatEntry>
       <ID>1149</ID>
       <Description>"p2_recovery"</Description>
-      <LastState Value="30" RealAddress="6C3079E0"/>
+      <LastState Value="643" RealAddress="7E9D7A40"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -286,7 +286,7 @@
     <CheatEntry>
       <ID>1150</ID>
       <Description>"p2_hit_outcome"</Description>
-      <LastState Value="0" RealAddress="6C307A1C"/>
+      <LastState Value="0" RealAddress="7E9D7A7C"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -298,7 +298,7 @@
     <CheatEntry>
       <ID>1151</ID>
       <Description>"p2_attack_type"</Description>
-      <LastState Value="0" RealAddress="6C307A5C"/>
+      <LastState Value="0" RealAddress="7E9D7ABC"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -310,7 +310,7 @@
     <CheatEntry>
       <ID>1152</ID>
       <Description>"p2_simple_move_state"</Description>
-      <LastState Value="3" RealAddress="6C307A60"/>
+      <LastState Value="3" RealAddress="7E9D7AC0"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -322,7 +322,7 @@
     <CheatEntry>
       <ID>1153</ID>
       <Description>"p2_stun_type"</Description>
-      <LastState Value="0" RealAddress="6C307A64"/>
+      <LastState Value="0" RealAddress="7E9D7AC4"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
@@ -334,11 +334,11 @@
     <CheatEntry>
       <ID>1154</ID>
       <Description>"p2_throw_tech"</Description>
-      <LastState Value="0" RealAddress="6C307A78"/>
+      <LastState Value="0" RealAddress="7E9D7AE0"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>428+p2_data_offset</Offset>
+        <Offset>430+p2_data_offset</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -346,11 +346,11 @@
     <CheatEntry>
       <ID>1156</ID>
       <Description>"p2_complex_move_state"</Description>
-      <LastState Value="16" RealAddress="6C307A8C"/>
+      <LastState Value="0" RealAddress="7E9D7AF4"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>43C+p2_data_offset</Offset>
+        <Offset>444+p2_data_offset</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -358,11 +358,11 @@
     <CheatEntry>
       <ID>1157</ID>
       <Description>"p2_power_crush"</Description>
-      <LastState Value="0" RealAddress="6C307CD2"/>
+      <LastState Value="0" RealAddress="7E9D7D40"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>682+p2_data_offset</Offset>
+        <Offset>690+p2_data_offset</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -370,11 +370,11 @@
     <CheatEntry>
       <ID>1158</ID>
       <Description>"p2_jump_flags"</Description>
-      <LastState Value="75497472" RealAddress="6C307D64"/>
+      <LastState Value="2304" RealAddress="7E9D7DD6"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>714+p2_data_offset</Offset>
+        <Offset>726+p2_data_offset</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -382,11 +382,11 @@
     <CheatEntry>
       <ID>1159</ID>
       <Description>"p2_cancel_window"</Description>
-      <LastState Value="16842752" RealAddress="6C307D98"/>
+      <LastState Value="65536" RealAddress="7E9D7E08"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>748+p2_data_offset</Offset>
+        <Offset>758+p2_data_offset</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -394,11 +394,11 @@
     <CheatEntry>
       <ID>1160</ID>
       <Description>"p2_damage_taken"</Description>
-      <LastState Value="1016" RealAddress="6C307F4C"/>
+      <LastState Value="0" RealAddress="7E9D7FBC"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>8FC+p2_data_offset</Offset>
+        <Offset>90C+p2_data_offset</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -406,11 +406,11 @@
     <CheatEntry>
       <ID>1161</ID>
       <Description>"p2_input_attack"</Description>
-      <LastState Value="0" RealAddress="6C308FAC"/>
+      <LastState Value="0" RealAddress="7E9D903C"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>195C+p2_data_offset</Offset>
+        <Offset>198c+p2_data_offset</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -418,11 +418,11 @@
     <CheatEntry>
       <ID>1162</ID>
       <Description>"p2_input_direction"</Description>
-      <LastState Value="32" RealAddress="6C30838C"/>
+      <LastState Value="32" RealAddress="7E9D9040"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>D3C+p2_data_offset</Offset>
+        <Offset>1990+p2_data_offset</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -430,11 +430,11 @@
     <CheatEntry>
       <ID>1163</ID>
       <Description>"p2_attack_startup"</Description>
-      <LastState Value="0" RealAddress="6C30EBD0"/>
+      <LastState Value="0" RealAddress="7E9DEC90"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>7580+p2_data_offset</Offset>
+        <Offset>75e0+p2_data_offset</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -442,11 +442,11 @@
     <CheatEntry>
       <ID>1164</ID>
       <Description>"p2_attack_startup_end"</Description>
-      <LastState Value="0" RealAddress="6C30EBD4"/>
+      <LastState Value="0" RealAddress="7E9DEC94"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
       <Offsets>
-        <Offset>7584+p2_data_offset</Offset>
+        <Offset>75e4+p2_data_offset</Offset>
         <Offset>0</Offset>
         <Offset>8</Offset>
       </Offsets>
@@ -454,13 +454,13 @@
     <CheatEntry>
       <ID>4448</ID>
       <Description>"p1_movelist"</Description>
-      <LastState RealAddress="733202E8"/>
+      <LastState RealAddress="619C02E8"/>
       <VariableType>String</VariableType>
       <Length>10</Length>
       <Unicode>0</Unicode>
       <CodePage>0</CodePage>
       <ZeroTerminate>1</ZeroTerminate>
-      <Address>"TekkenGame-Win64-Shipping.exe"+034B0C90</Address>
+      <Address>"TekkenGame-Win64-Shipping.exe"+034CF130</Address>
       <Offsets>
         <Offset>2E8</Offset>
       </Offsets>
@@ -468,13 +468,13 @@
     <CheatEntry>
       <ID>1127</ID>
       <Description>"p2_movelist"</Description>
-      <LastState RealAddress="735402E8"/>
+      <LastState RealAddress="61C002E8"/>
       <VariableType>String</VariableType>
       <Length>10</Length>
       <Unicode>0</Unicode>
       <CodePage>0</CodePage>
       <ZeroTerminate>1</ZeroTerminate>
-      <Address>"TekkenGame-Win64-Shipping.exe"+034B4200</Address>
+      <Address>"TekkenGame-Win64-Shipping.exe"+034D26D0</Address>
       <Offsets>
         <Offset>2E8</Offset>
       </Offsets>
@@ -482,13 +482,13 @@
     <CheatEntry>
       <ID>1129</ID>
       <Description>"OPPONENT_NAME"</Description>
-      <LastState RealAddress="30FA0114"/>
+      <LastState RealAddress="34920114"/>
       <VariableType>String</VariableType>
       <Length>13</Length>
       <Unicode>0</Unicode>
       <CodePage>0</CodePage>
       <ZeroTerminate>1</ZeroTerminate>
-      <Address>"TekkenGame-Win64-Shipping.exe"+0349ABB0</Address>
+      <Address>"TekkenGame-Win64-Shipping.exe"+034B8F80</Address>
       <Offsets>
         <Offset>114</Offset>
         <Offset>8</Offset>
@@ -498,9 +498,9 @@
     <CheatEntry>
       <ID>1131</ID>
       <Description>"OPPONENT_SIDE"</Description>
-      <LastState Value="1" RealAddress="30FA0070"/>
+      <LastState Value="1" RealAddress="34920070"/>
       <VariableType>4 Bytes</VariableType>
-      <Address>"TekkenGame-Win64-Shipping.exe"+0349ABB0</Address>
+      <Address>"TekkenGame-Win64-Shipping.exe"+034B8F80</Address>
       <Offsets>
         <Offset>70</Offset>
         <Offset>8</Offset>
@@ -518,7 +518,7 @@
         <CheatEntry>
           <ID>1005</ID>
           <Description>"player_data_second_pointer_offset"</Description>
-          <LastState Value="1081307648" RealAddress="142890B98"/>
+          <LastState Value="1081413888" RealAddress="1428AD398"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -530,7 +530,7 @@
         <CheatEntry>
           <ID>1102</ID>
           <Description>"player_data_second_pointer_offset"</Description>
-          <LastState Value="5177445" RealAddress="142891DA0"/>
+          <LastState Value="7536747" RealAddress="1428AE5A0"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -542,7 +542,7 @@
         <CheatEntry>
           <ID>1007</ID>
           <Description>"p2_end_block_offset"</Description>
-          <LastState Value="3211316630" RealAddress="142890C60"/>
+          <LastState Value="1137158750" RealAddress="1428AD460"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -554,7 +554,7 @@
         <CheatEntry>
           <ID>1010</ID>
           <Description>"facing"</Description>
-          <LastState Value="1197239666" RealAddress="14289166C"/>
+          <LastState Value="7340064" RealAddress="1428ADE6C"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -566,7 +566,7 @@
         <CheatEntry>
           <ID>1011</ID>
           <Description>"timer_in_frames"</Description>
-          <LastState Value="6684773" RealAddress="1428AACF0"/>
+          <LastState Value="2097253" RealAddress="1428C74F0"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -578,7 +578,7 @@
         <CheatEntry>
           <ID>1012</ID>
           <Description>"p1_char_id"</Description>
-          <LastState Value="1015151169" RealAddress="142890C6C"/>
+          <LastState Value="1065353216" RealAddress="1428AD46C"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -590,7 +590,7 @@
         <CheatEntry>
           <ID>1013</ID>
           <Description>"p2_char_id"</Description>
-          <LastState Value="116" RealAddress="1428974BC"/>
+          <LastState Value="6488169" RealAddress="1428B3CBC"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -602,7 +602,7 @@
         <CheatEntry>
           <ID>1016</ID>
           <Description>"p1_attack_damage"</Description>
-          <LastState Value="2147483648" RealAddress="142890E94"/>
+          <LastState Value="1065353216" RealAddress="1428AD694"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -614,7 +614,7 @@
         <CheatEntry>
           <ID>1017</ID>
           <Description>"p2_attack_damage"</Description>
-          <LastState Value="6684789" RealAddress="1428976E4"/>
+          <LastState Value="7798816" RealAddress="1428B3EE4"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -626,7 +626,7 @@
         <CheatEntry>
           <ID>1032</ID>
           <Description>"p1_throw_flag"</Description>
-          <LastState Value="1063154881" RealAddress="142890F98"/>
+          <LastState Value="1102315520" RealAddress="1428AD798"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -638,7 +638,7 @@
         <CheatEntry>
           <ID>1155</ID>
           <Description>"p2_throw_flag"</Description>
-          <LastState Value="6488174" RealAddress="1428985D8"/>
+          <LastState Value="115" RealAddress="1428B4E38"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -650,7 +650,7 @@
         <CheatEntry>
           <ID>1044</ID>
           <Description>"p1_x"</Description>
-          <LastState Value="9.275523841E-39" RealAddress="142891798"/>
+          <LastState Value="9.183691147E-39" RealAddress="1428ADF98"/>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -662,7 +662,7 @@
         <CheatEntry>
           <ID>1045</ID>
           <Description>"p2_x"</Description>
-          <LastState Value="9.918380721E-39" RealAddress="142897FE8"/>
+          <LastState Value="1.06529624E-38" RealAddress="1428B47E8"/>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -674,7 +674,7 @@
         <CheatEntry>
           <ID>1046</ID>
           <Description>"p1_y"</Description>
-          <LastState Value="1.056124321E-38" RealAddress="14289179C"/>
+          <LastState Value="1.019378492E-38" RealAddress="1428ADF9C"/>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -686,7 +686,7 @@
         <CheatEntry>
           <ID>1047</ID>
           <Description>"p2_y"</Description>
-          <LastState Value="6.153118372E-39" RealAddress="142897FEC"/>
+          <LastState Value="9.642872832E-39" RealAddress="1428B47EC"/>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -698,7 +698,7 @@
         <CheatEntry>
           <ID>1048</ID>
           <Description>"p1_z"</Description>
-          <LastState Value="5.326540052E-39" RealAddress="1428917A0"/>
+          <LastState Value="2.93889002E-39" RealAddress="1428ADFA0"/>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -710,7 +710,7 @@
         <CheatEntry>
           <ID>1049</ID>
           <Description>"p2_z"</Description>
-          <LastState Value="1.010206012E-38" RealAddress="142897FF0"/>
+          <LastState Value="2.938897026E-39" RealAddress="1428B47F0"/>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -722,7 +722,7 @@
         <CheatEntry>
           <ID>1050</ID>
           <Description>"p1_hitbox1"</Description>
-          <LastState Value="6619207" RealAddress="1428917A4"/>
+          <LastState Value="6815860" RealAddress="1428ADFA4"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -734,7 +734,7 @@
         <CheatEntry>
           <ID>1051</ID>
           <Description>"p2_hitbox1"</Description>
-          <LastState Value="6881382" RealAddress="142897FF4"/>
+          <LastState Value="6357096" RealAddress="1428B47F4"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -746,7 +746,7 @@
         <CheatEntry>
           <ID>1052</ID>
           <Description>"p1_hitbox2"</Description>
-          <LastState Value="4325492" RealAddress="1428917A8"/>
+          <LastState Value="7536745" RealAddress="1428ADFA8"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -758,7 +758,7 @@
         <CheatEntry>
           <ID>1053</ID>
           <Description>"p2_hitbox2"</Description>
-          <LastState Value="7667815" RealAddress="142897FF8"/>
+          <LastState Value="6553714" RealAddress="1428B47F8"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -770,7 +770,7 @@
         <CheatEntry>
           <ID>1054</ID>
           <Description>"p1_hitbox3"</Description>
-          <LastState Value="7209065" RealAddress="1428917AC"/>
+          <LastState Value="7340064" RealAddress="1428ADFAC"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -782,7 +782,7 @@
         <CheatEntry>
           <ID>1055</ID>
           <Description>"p2_hitbox3"</Description>
-          <LastState Value="6357106" RealAddress="142897FFC"/>
+          <LastState Value="6357111" RealAddress="1428B47FC"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -794,7 +794,7 @@
         <CheatEntry>
           <ID>1056</ID>
           <Description>"p1_hitbox4"</Description>
-          <LastState Value="7471201" RealAddress="1428917B0"/>
+          <LastState Value="6357100" RealAddress="1428ADFB0"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -806,7 +806,7 @@
         <CheatEntry>
           <ID>1057</ID>
           <Description>"p2_hitbox4"</Description>
-          <LastState Value="6881396" RealAddress="142898000"/>
+          <LastState Value="6619250" RealAddress="1428B4800"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -818,7 +818,7 @@
         <CheatEntry>
           <ID>1058</ID>
           <Description>"p1_hitbox5"</Description>
-          <LastState Value="4587641" RealAddress="1428917B4"/>
+          <LastState Value="6684788" RealAddress="1428ADFB4"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -830,7 +830,7 @@
         <CheatEntry>
           <ID>1059</ID>
           <Description>"p2_hitbox5"</Description>
-          <LastState Value="7209071" RealAddress="142898004"/>
+          <LastState Value="41" RealAddress="1428B4804"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -842,7 +842,7 @@
         <CheatEntry>
           <ID>1060</ID>
           <Description>"p1_activebox_x"</Description>
-          <LastState Value="9.183703759E-39" RealAddress="142891BF8"/>
+          <LastState Value="4.683655146E-39" RealAddress="1428AE3F8"/>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -854,7 +854,7 @@
         <CheatEntry>
           <ID>1061</ID>
           <Description>"p2_activebox_x"</Description>
-          <LastState Value="6.97954255E-39" RealAddress="142898448"/>
+          <LastState Value="9.459100946E-39" RealAddress="1428B4C48"/>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -866,7 +866,7 @@
         <CheatEntry>
           <ID>1062</ID>
           <Description>"p1_activebox_y"</Description>
-          <LastState Value="1.028562041E-38" RealAddress="142891BFC"/>
+          <LastState Value="4.500003771E-39" RealAddress="1428AE3FC"/>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -878,7 +878,7 @@
         <CheatEntry>
           <ID>1063</ID>
           <Description>"p2_activebox_y"</Description>
-          <LastState Value="7.530605973E-39" RealAddress="14289844C"/>
+          <LastState Value="1.001020501E-38" RealAddress="1428B4C4C"/>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -890,7 +890,7 @@
         <CheatEntry>
           <ID>1064</ID>
           <Description>"p1_activebox_z"</Description>
-          <LastState Value="1.019389982E-38" RealAddress="142891C00"/>
+          <LastState Value="5.969352092E-39" RealAddress="1428AE400"/>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -902,7 +902,7 @@
         <CheatEntry>
           <ID>1065</ID>
           <Description>"p2_activebox_z"</Description>
-          <LastState Value="9.459100946E-39" RealAddress="142898450"/>
+          <LastState Value="1.056122359E-38" RealAddress="1428B4C50"/>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -914,7 +914,7 @@
         <CheatEntry>
           <ID>1066</ID>
           <Description>"p1_health_percent"</Description>
-          <LastState Value="3014770" RealAddress="142891D80"/>
+          <LastState Value="6881395" RealAddress="1428AE580"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -926,7 +926,7 @@
         <CheatEntry>
           <ID>1067</ID>
           <Description>"p2_health_percent"</Description>
-          <LastState Value="4980794" RealAddress="1428985D0"/>
+          <LastState Value="7602284" RealAddress="1428B4DD0"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -938,7 +938,7 @@
         <CheatEntry>
           <ID>1068</ID>
           <Description>"p1_input_counter"</Description>
-          <LastState Value="7274606" RealAddress="142892150"/>
+          <LastState Value="6357108" RealAddress="1428AE950"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -950,7 +950,7 @@
         <CheatEntry>
           <ID>1069</ID>
           <Description>"p2_input_counter"</Description>
-          <LastState Value="2097268" RealAddress="1428989A0"/>
+          <LastState Value="7209065" RealAddress="1428B51A0"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -962,7 +962,7 @@
         <CheatEntry>
           <ID>1078</ID>
           <Description>"p1_rage_flag"</Description>
-          <LastState Value="7471208" RealAddress="142891534"/>
+          <LastState Value="6684783" RealAddress="1428ADD34"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -974,7 +974,7 @@
         <CheatEntry>
           <ID>1079</ID>
           <Description>"p2_rage_flag"</Description>
-          <LastState Value="1817207657" RealAddress="142897D84"/>
+          <LastState Value="7274605" RealAddress="1428B4584"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -986,7 +986,7 @@
         <CheatEntry>
           <ID>1080</ID>
           <Description>"p1_mystery_state"</Description>
-          <LastState Value="6553710" RealAddress="142891528"/>
+          <LastState Value="6488169" RealAddress="1428ADD28"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -998,7 +998,7 @@
         <CheatEntry>
           <ID>1135</ID>
           <Description>"p2_mystery_state"</Description>
-          <LastState Value="1635150194" RealAddress="142897D78"/>
+          <LastState Value="7274598" RealAddress="1428B4578"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -1010,7 +1010,7 @@
         <CheatEntry>
           <ID>1125</ID>
           <Description>"p1_round_wins"</Description>
-          <LastState Value="7602280" RealAddress="1428AAD04"/>
+          <LastState Value="7602273" RealAddress="1428C7504"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -1022,7 +1022,7 @@
         <CheatEntry>
           <ID>1126</ID>
           <Description>"p2_round_wins"</Description>
-          <LastState Value="6488165" RealAddress="1428AADD4"/>
+          <LastState Value="1348232562" RealAddress="1428C75D4"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -1034,7 +1034,7 @@
         <CheatEntry>
           <ID>1084</ID>
           <Description>"p1_display_combo_counter"</Description>
-          <LastState Value="4259956" RealAddress="1428AAD98"/>
+          <LastState Value="7274612" RealAddress="1428C7598"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -1046,7 +1046,7 @@
         <CheatEntry>
           <ID>1120</ID>
           <Description>"p2_display_combo_counter"</Description>
-          <LastState Value="3801213" RealAddress="1428AAE68"/>
+          <LastState Value="7209057" RealAddress="1428C7668"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -1058,7 +1058,7 @@
         <CheatEntry>
           <ID>1086</ID>
           <Description>"p1_display_combo_damage"</Description>
-          <LastState Value="7209065" RealAddress="1428AAD70"/>
+          <LastState Value="6357024" RealAddress="1428C7570"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -1070,7 +1070,7 @@
         <CheatEntry>
           <ID>1087</ID>
           <Description>"p2_display_combo_damage"</Description>
-          <LastState Value="1886413614" RealAddress="1428AAE40"/>
+          <LastState Value="6488175" RealAddress="1428C7640"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -1082,7 +1082,7 @@
         <CheatEntry>
           <ID>1121</ID>
           <Description>"p1_display_juggle_damage"</Description>
-          <LastState Value="6619246" RealAddress="1428AAD74"/>
+          <LastState Value="7536755" RealAddress="1428C7574"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -1094,7 +1094,7 @@
         <CheatEntry>
           <ID>1122</ID>
           <Description>"p2_display_juggle_damage"</Description>
-          <LastState Value="0" RealAddress="1428AAE44"/>
+          <LastState Value="7602273" RealAddress="1428C7644"/>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>"TekkenGame-Win64-Shipping.exe"+player_data_pointer_offset</Address>
@@ -1116,18 +1116,18 @@
         <CheatEntry>
           <ID>4486</ID>
           <Description>"FrameCounter"</Description>
-          <LastState Value="6301" RealAddress="1434B013C"/>
+          <LastState Value="365" RealAddress="1434B0EE0"/>
           <Color>FF9900</Color>
           <VariableType>4 Bytes</VariableType>
-          <Address>"TekkenGame-Win64-Shipping.exe"+34B013C</Address>
+          <Address>"TekkenGame-Win64-Shipping.exe"+34B0EE0</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>4487</ID>
           <Description>"Distance"</Description>
-          <LastState Value="7307.803223" RealAddress="1434B008C"/>
+          <LastState Value="1637.748535" RealAddress="1434CE3C0"/>
           <Color>FF9900</Color>
           <VariableType>Float</VariableType>
-          <Address>"TekkenGame-Win64-Shipping.exe"+34B008C</Address>
+          <Address>"TekkenGame-Win64-Shipping.exe"+34CE3C0</Address>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
@@ -1135,13 +1135,12 @@
   <UserdefinedSymbols>
     <SymbolEntry>
       <Name>player_data_pointer_offset</Name>
-      <Address>034E9388</Address>
+      <Address>034E66E8</Address>
     </SymbolEntry>
     <SymbolEntry>
       <Name>p2_data_offset</Name>
-      <Address>0x7640</Address>
+      <Address>0x76A0</Address>
     </SymbolEntry>
   </UserdefinedSymbols>
-  <Comments>How to update addresses after a patch: https://github.com/WAZAAAAA0/TekkenBot/wiki/How-to-update-addresses
-</Comments>
+  <Comments>How to update addresses after a patch: https://github.com/WAZAAAAA0/TekkenBot/wiki/How-to-update-addresses</Comments>
 </CheatTable>
