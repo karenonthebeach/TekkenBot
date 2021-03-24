@@ -92,10 +92,10 @@ class ComplexMoveStates(Enum):  #These are tracking states>
     UNKN = 999999 #used to indicate a non standard tracking move
 
 class ThrowTechs(Enum):
-    NONE = 0
-    TE1 = 1 #both 1 and 2 seem to sometimes include normal throws that can be broken with either
-    TE2 = 2
-    TE1_2 = 3
+    NONE = 29
+    TE1 = 28 #both 1 and 2 seem to sometimes include normal throws that can be broken with either
+    TE2 = 31
+    TE1_2 = 30
 
 class StunStates(Enum):
     NONE = 0
@@ -247,6 +247,7 @@ class CharacterCodes(Enum):
     LEROY = 53 # DLC
     FAHKUMRAM = 54 # DLC
     KUNIMITSU = 55 # DLC
+    LIDIA = 56 # DLC
 
 
     NOT_YET_LOADED = 71 #value when a match starts for (??) frames until char_id loads
