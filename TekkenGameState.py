@@ -331,7 +331,13 @@ class BotSnapshot:
         #self.xyz = (d['PlayerDataAddress.x'], d['PlayerDataAddress.y'], d['PlayerDataAddress.z'])
         self.move_id = d['PlayerDataAddress.move_id']
         self.simple_state = SimpleMoveStates(d['PlayerDataAddress.simple_move_state'])
-        self.attack_type = AttackType(d['PlayerDataAddress.attack_type'])
+
+        value_integer = d['PlayerDataAddress.attack_type']
+        value_hex = value_integer.to_bytes(4, 'big')
+        value_hex = value_hex[2:4]
+        value_integer = int.from_bytes(value_hex, byteorder='big')
+        self.attack_type = AttackType(value_integer)
+
         self.startup = d['PlayerDataAddress.attack_startup']
         self.startup_end = d['PlayerDataAddress.attack_startup_end']
         self.attack_damage = d['PlayerDataAddress.attack_damage']
@@ -366,7 +372,12 @@ class BotSnapshot:
         else:
             self.is_starting = False
 
-        self.throw_tech = ThrowTechs(d['PlayerDataAddress.throw_tech'])
+        value_integer = d['PlayerDataAddress.throw_tech']
+        value_hex = value_integer.to_bytes(4, 'big')
+        value_hex = value_hex[3:4]
+        value_integer = int.from_bytes(value_hex, byteorder='big')
+        #print("throw_tech = ", value_integer)
+        self.throw_tech = ThrowTechs(value_integer)
 
         #self.highest_y = max(d['PlayerDataAddress.y'])
         #self.lowest_y = min(d['PlayerDataAddress.y'])
