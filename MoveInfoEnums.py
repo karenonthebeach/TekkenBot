@@ -92,6 +92,7 @@ class ComplexMoveStates(Enum):  #These are tracking states>
     UNKN = 999999 #used to indicate a non standard tracking move
 
 class ThrowTechs(Enum):
+    DUMMY = 0
     NONE = 29
     TE1 = 28 #both 1 and 2 seem to sometimes include normal throws that can be broken with either
     TE2 = 31
