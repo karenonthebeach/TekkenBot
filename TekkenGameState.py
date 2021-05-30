@@ -85,7 +85,8 @@ class TekkenGameReader:
         successful = ReadProcessMemory(processHandle, address, c.byref(data), c.sizeof(data), c.byref(bytesRead))
         if not successful:
             e = GetLastError()
-            print("ReadProcessMemory Error: Code " + str(e))
+            #print("ReadProcessMemory Error: Code " + str(e))
+            print("waiting for match...")
             self.ReacquireEverything()
 
         value = data.value
