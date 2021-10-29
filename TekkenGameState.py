@@ -174,8 +174,8 @@ class TekkenGameReader:
             if self.module_address == None:
                 print("TekkenGame-Win64-Shipping.exe not found. Likely wrong process id. Reacquiring pid.")
                 self.ReacquireEverything()
-            elif(self.module_address != self.c['MemoryAddressOffsets']['expected_module_address']):
-                print("Unrecognized location for TekkenGame-Win64-Shipping.exe module. Tekken.exe Patch? Wrong process id?")
+#            elif(self.module_address != self.c['MemoryAddressOffsets']['expected_module_address']):
+#                print("Unrecognized location for TekkenGame-Win64-Shipping.exe module. Tekken.exe Patch? Wrong process id?")
             else:
                 print("Found TekkenGame-Win64-Shipping.exe")
                 self.needReacquireModule = False
@@ -189,7 +189,7 @@ class TekkenGameReader:
                     if i + 1 < len(addresses):
                         value = self.GetValueFromAddress(processHandle, value + offset, is64bit=True)
                     else:
-                        value = self.GetValueFromAddress(processHandle, value + offset, isString=False)
+                        value = self.GetValueFromAddress(processHandle, value + offset, is64bit=True)
                 
                 player_data_base_address = value
 
